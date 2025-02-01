@@ -20,14 +20,24 @@
 }
 
 .hd__sec {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     height: 100%;
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
 }
 
 #hd__sec01 {
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#hd__sec01 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
 #hd__sec02 {
     flex: 6;
 }
