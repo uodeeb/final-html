@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*--------------------------Container--------------------------*/
@@ -86,6 +87,60 @@
     width: 100vw;
     height: 80vh;
     background-color: rgb(1, 55, 55);
+}
+
+#mn__sec01 {
+    text-align: center;
+    color: white;
+    height: 40vh;
+}
+
+#mn__sec01 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+#mn__sec02 {
+    padding: 20px;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5vh 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "tit tit tit"
+    "proj01 proj02 proj03"
+    "proj04 proj05 proj06";
+}
+#mn__sec02 h2 {
+    color: white;
+    grid-area: tit;
+}
+#mn__sec02__proj01 {
+    background-color: chartreuse;
+    grid-area: proj01;
+}
+#mn__sec02__proj02 {
+    background-color: rgb(191, 248, 135);
+    grid-area: proj02;
+}
+#mn__sec02__proj03 {
+    background-color: rgb(29, 44, 14);
+    grid-area: proj03;
+}
+#mn__sec02__proj04 {
+    background-color: rgb(128, 133, 124);
+    grid-area: proj04;
+}
+#mn__sec02__proj05 {
+    background-color: rgb(201, 250, 151);
+    grid-area: proj05;
+}
+#mn__sec02__proj06 {
+    background-color: rgb(54, 64, 43);
+    grid-area: proj06;
 }
 
 /*--------------------------Footer--------------------------*/
