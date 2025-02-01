@@ -40,6 +40,43 @@
 
 #hd__sec02 {
     flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav__list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav__list li {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#nav__list li:hover {
+    background-color: white;
+    color: darkcyan;
+}
+
+#nav__list li a:hover {
+    background-color: white;
+    color: darkcyan;
+}
+
+#nav__list li a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 #hd__sec03 {
     flex: 4;
